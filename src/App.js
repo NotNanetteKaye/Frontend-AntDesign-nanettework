@@ -5,7 +5,7 @@ import {Route, Routes} from 'react-router-dom'
 import './App.css';
 
 // Pages Imports
-import HomePage from './pages/HomePage';
+import HomePage from './pages/HomePage/HomePage';
 
 function App() {
   return (
