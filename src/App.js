@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<HomePage />} />
       </Routes>
+      <h1>hi bby</h1>
     </div>
   );
 }
