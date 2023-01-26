@@ -1,8 +1,19 @@
-.homepage {
+/*Lines 2-8 ensure the content fills the entire page*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.homePage {
   background-image: url(../public/220730_NanetteSeniorPortraits_KP-56.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #fff;
-  padding: 5mm;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
 }

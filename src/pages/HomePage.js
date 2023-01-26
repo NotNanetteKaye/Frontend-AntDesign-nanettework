@@ -1,9 +1,10 @@
 import React from 'react';
+import '../../src/'
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>hi bby</h1>
+        <div className='homePage'>
+            <h1>Nanette Kaye Dolera</h1>
         </div>
     )
 }
