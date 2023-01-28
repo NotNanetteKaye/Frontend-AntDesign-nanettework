@@ -1,0 +1,24 @@
+.navBar {
+    background: rgba(152, 139, 139, 0.252);
+    position: fixed;
+    width: 100%;
+    height: 3mm;
+}
+
+.navBar ul {
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #566056;
+    text-decoration: none;
+}
+  
+.navBar li a {
+    color: #566056;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+  
+.navBar li a:hover {
+    cursor: pointer;
+    background-color: rgba(236, 236, 236, 0.713);
+}

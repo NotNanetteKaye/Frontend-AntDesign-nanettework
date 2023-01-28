@@ -8,10 +8,12 @@ import './App.css';
 import HomePage from './pages/HomePage/HomePage';
 
 // Components Imports
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
     <div>
+      <NavBar />
       <Routes>
         <Route path="/home" element={<HomePage />} />
       </Routes>
