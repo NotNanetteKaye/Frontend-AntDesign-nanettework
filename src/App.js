@@ -7,6 +7,8 @@ import './App.css';
 // Pages Imports
 import HomePage from './pages/HomePage/HomePage';
 
+// Components Imports
+
 function App() {
   return (
     <div>
