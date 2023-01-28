@@ -1,29 +1,30 @@
 #fixed {
-    height: 100%;
-    margin-top: 17mm;
-    margin-left: -6mm;
+    background-image: url(../../../public/220730_NanetteSeniorPortraits_KP-56.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    height: 30%;
 }
 
 #remaining {
     flex-grow: 1;
-    height: 269mm;
 }
 
 .homePage h1 {
     font: bold italic 2em Georgia, Times, "Times New Roman", serif;
     font-size: 80px;
     color: white;
-    margin-top: 225mm;
+    margin-top: 230mm;
     margin-left: 270mm;
-    position: fixed;
 }
 
 .homePage h2 {
     font: bold italic 2em Georgia, Times, "Times New Roman", serif;
     font-size: 54px; 
-    margin-top: 245mm;
     margin-left: 404mm;
     max-width: 200mm;
     color: white;
-    position: fixed;
 }

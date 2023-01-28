@@ -6,14 +6,3 @@
   padding: 0;
   box-sizing: inherit;
 }
-
-.homePage {
-  background-image: url(../public/220730_NanetteSeniorPortraits_KP-56.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #fff;
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-}
