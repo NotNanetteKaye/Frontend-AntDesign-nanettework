@@ -6,7 +6,7 @@
 
 #remaining {
     flex-grow: 1;
-    height: 270mm;
+    height: 269mm;
 }
 
 .homePage h1 {
@@ -14,7 +14,7 @@
     font-size: 80px;
     color: white;
     margin-top: 225mm;
-    margin-left: 265mm;
+    margin-left: 270mm;
     position: fixed;
 }
 
@@ -22,7 +22,7 @@
     font: bold italic 2em Georgia, Times, "Times New Roman", serif;
     font-size: 54px; 
     margin-top: 245mm;
-    margin-left: 395mm;
+    margin-left: 404mm;
     max-width: 200mm;
     color: white;
     position: fixed;
