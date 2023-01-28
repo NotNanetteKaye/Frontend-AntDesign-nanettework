@@ -1,0 +1,29 @@
+#fixed {
+    height: 100%;
+    margin-top: 17mm;
+    margin-left: -6mm;
+}
+
+#remaining {
+    flex-grow: 1;
+    height: 270mm;
+}
+
+.homePage h1 {
+    font: bold italic 2em Georgia, Times, "Times New Roman", serif;
+    font-size: 80px;
+    color: white;
+    margin-top: 225mm;
+    margin-left: 265mm;
+    position: fixed;
+}
+
+.homePage h2 {
+    font: bold italic 2em Georgia, Times, "Times New Roman", serif;
+    font-size: 54px; 
+    margin-top: 245mm;
+    margin-left: 395mm;
+    max-width: 200mm;
+    color: white;
+    position: fixed;
+}
