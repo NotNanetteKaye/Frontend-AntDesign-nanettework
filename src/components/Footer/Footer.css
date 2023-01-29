@@ -1,5 +1,10 @@
 .Footer {
     background-color: #d1baa7;
-    max-width: 100%;
-
+    padding: 4.2mm;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-end;
+    flex-direction: row;
 }
