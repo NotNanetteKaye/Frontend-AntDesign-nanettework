@@ -4,7 +4,7 @@ import '../Footer/Footer.css'
 const Footer = () => {
     return (
         <div className='Footer'>
-            <h1>this is the footer.</h1>
+            <img src='../Footer/icons8/icons8-instagram-24.png' alt='GitHub icon' width='100%' height='100%'/>
 
         </div>
     )
