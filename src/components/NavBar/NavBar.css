@@ -1,7 +1,13 @@
 .navBar {
-    background: rgba(152, 139, 139, 0.252);
+    background-color: rgb(231 231 231);
+    padding: 4.2mm;
     position: fixed;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
 .navBar ul {
@@ -9,14 +15,16 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #566056;
     text-decoration: none;
-    margin-left: 50mm;
-    margin-top: -10mm;
+    display: flex;
+    margin-right: 50mm;
+    background-color: rgb(231 231 231);
 }
   
 .navBar li a {
     color: #566056;
     text-decoration: none;
     font-size: 1.6rem;
+    display: flex;
 }
   
 .navBar li a:hover {
