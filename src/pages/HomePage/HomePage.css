@@ -7,6 +7,7 @@
     display: flex;
     flex-flow: column;
     height: 30%;
+    width: 100%;
 }
 
 #remaining {
@@ -15,16 +16,16 @@
 
 .homePage h1 {
     font: bold italic 2em Georgia, Times, "Times New Roman", serif;
-    font-size: 80px;
+    font-size: 82px;
     color: white;
-    margin-top: 230mm;
-    margin-left: 270mm;
+    margin-top: 220mm;
+    margin-left: 255mm;
 }
 
 .homePage h2 {
     font: bold italic 2em Georgia, Times, "Times New Roman", serif;
-    font-size: 54px; 
-    margin-left: 404mm;
-    max-width: 200mm;
+    font-size: 70px; 
+    margin-left: 368mm;
     color: white;
+    margin-bottom: 5mm;
 }
