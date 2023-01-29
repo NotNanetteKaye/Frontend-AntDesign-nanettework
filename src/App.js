@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage/HomePage';
 
 // Components Imports
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Routes>
         <Route path="/home" element={<HomePage />} />
       </Routes>
+      <Footer />
+      <h3>he</h3>
 
     </div>
   );
