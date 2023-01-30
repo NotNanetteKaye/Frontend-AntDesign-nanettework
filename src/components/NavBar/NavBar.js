@@ -6,12 +6,14 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <div id='navBarFixed'>
+                <h1>ND</h1>
                 <ul>
                     <li>
                         <Link to ='/home'>HOME</Link>
                     </li>
                 </ul>
             </div>
+            <div id='navBarRemaining'></div>
         </div>
       );
 }

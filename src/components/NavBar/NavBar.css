@@ -1,24 +1,30 @@
 .navBar {
-    background-color: rgba(209, 186, 167, 0.387);
+    background-color: rgb(255 255 255 / 23%);
     padding: 4.2mm;
     position: fixed;
     width: 100%;
 }
 
+.navBar h1 {
+    font: bold 10em Georgia, Times, "Times New Roman", serif;
+    color: #ffffff;
+    position: fixed;
+}
+
 .navBar ul {
     list-style-type: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #566056;
+    font: bold 2em Georgia, Times, "Times New Roman", serif;
+    color: #ffffff;
     text-decoration: none;
 }
   
 .navBar li a {
-    color: #566056;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1.6rem;
 }
   
-/* .navBar li a:hover {
+.navBar li a:hover {
     cursor: pointer;
     background-color: rgba(152, 139, 139, 0.152);
-} */
+}
