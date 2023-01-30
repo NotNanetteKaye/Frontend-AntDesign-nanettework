@@ -5,7 +5,7 @@ import '../NavBar/NavBar.css'
 const NavBar = () => {
     return (
         <div className='navBar'>
-            <div id='fixed'>
+            <div id='navBarFixed'>
                 <ul>
                     <li>
                         <Link to ='/home'>HOME</Link>

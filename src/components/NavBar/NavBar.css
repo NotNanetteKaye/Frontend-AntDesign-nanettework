@@ -3,11 +3,6 @@
     padding: 4.2mm;
     position: fixed;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: flex-end;
-    flex-direction: row;
 }
 
 .navBar ul {
@@ -23,7 +18,7 @@
     font-size: 1.6rem;
 }
   
-.navBar li a:hover {
+/* .navBar li a:hover {
     cursor: pointer;
     background-color: rgba(152, 139, 139, 0.152);
-}
+} */
