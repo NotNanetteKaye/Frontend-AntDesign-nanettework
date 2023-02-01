@@ -1,19 +1,19 @@
+import { Menu } from 'antd';
 import React from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import '../NavBar/NavBar.css'
 
 const NavBar = () => {
     return (
-        <div className='navBar'>
-            <div id='navBarFixed'>
-                <h1>ND</h1>
-                <ul>
-                    <li>
-                        <Link to ='/home'>HOME</Link>
-                    </li>
-                </ul>
+        <div className='container-fluid'>
+            <div className='NavBar'>
+                <div className='logo'>
+                    <Menu mode='horizontal' defaultSelectedKeys={['2']}>
+                        <Menu.Item key='1'>Home</Menu.Item>
+                        <Menu.Item key='2'>About</Menu.Item>
+                        <Menu.Item key='3'>Portfolio</Menu.Item>
+                        <Menu.Item key='4'>Links</Menu.Item>
+                    </Menu>
+                </div>
             </div>
-            <div id='navBarRemaining'></div>
         </div>
       );
 }
