@@ -11,6 +11,10 @@ import HomePage from './pages/HomePage/HomePage';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 
+// Layout Imports
+import { Layout, Space } from 'antd';
+const { Header, Footer, Sider, Content } = Layout;
+
 function App() {
   return (
     <div>
