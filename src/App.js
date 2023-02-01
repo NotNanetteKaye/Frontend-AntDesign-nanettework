@@ -12,15 +12,17 @@ import NavBar from './components/NavBar/NavBar';
 // import Footer from './components/Footer/Footer';
 
 // Layout Imports
-import { Layout, Menu, } from 'antd';
+import { Layout } from 'antd';
 const { Header } = Layout;
 
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <Layout className='layout'>
+      <Header>
+        <NavBar />
+      </Header>
+    </Layout>
   );
 }
 

@@ -6,11 +6,11 @@ const NavBar = () => {
         <div className='container-fluid'>
             <div className='NavBar'>
                 <div className='logo'>
-                    <Menu mode='horizontal' defaultSelectedKeys={['2']}>
-                        <Menu.Item key='1'>Home</Menu.Item>
-                        <Menu.Item key='2'>About</Menu.Item>
-                        <Menu.Item key='3'>Portfolio</Menu.Item>
-                        <Menu.Item key='4'>Links</Menu.Item>
+                    <Menu mode='horizontal' defaultSelectedKeys={['home']}>
+                        <Menu.Item key='home'>Home</Menu.Item>
+                        <Menu.Item key='about'>About</Menu.Item>
+                        <Menu.Item key='portfolio'>Portfolio</Menu.Item>
+                        <Menu.Item key='links'>Links</Menu.Item>
                     </Menu>
                 </div>
             </div>
