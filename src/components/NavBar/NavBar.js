@@ -10,14 +10,24 @@ const Header = styled.div`
     display: flex;
 `
 
+// const headerStyle = {
+//     textAlign: 'center',
+//     color: 'pink',
+//     height: 164,
+//     // paddingInline: 50,
+//     lineHeight: '64px',
+//     backgroundColor: 'pink',
+//     width: '100%',
+//   };
+
 const NavBar = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid' style={{backgroundColor: 'pink', height: 100}}>
             <Header>
-                <div className='logo' style={{marginTop: '10mm',}}>
+                <div className='logo' style={{marginTop: '16mm',}}>
                     <a href='http://www.google.com'>ND</a>
                 </div>
-                <Menu style={{color: 'pink', fontSize: '10mm', marginTop:'6mm',}} mode='horizontal' defaultSelectedKeys={['home']}>
+                <Menu style={{color: 'pink', backgroundColor: 'green', fontSize: '10mm', marginTop:'6mm',}} mode='horizontal' defaultSelectedKeys={['home']}>
                     <Menu.Item key='home'>Home</Menu.Item>
                     <Menu.Item key='about'>About</Menu.Item>
                     <Menu.Item key='portfolio'>Portfolio</Menu.Item>
