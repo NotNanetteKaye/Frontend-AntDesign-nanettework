@@ -22,7 +22,7 @@ const Header = styled.div`
 
 const NavBar = () => {
     return (
-        <div className='container-fluid' style={{backgroundColor: 'pink', height: 100}}>
+        <div className='container-fluid'>
             <Header>
                 <div className='logo' style={{marginTop: '16mm',}}>
                     <a href='http://www.google.com'>ND</a>
