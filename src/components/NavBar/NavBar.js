@@ -24,7 +24,7 @@ const NavBar = () => {
     return (
         <div className='container-fluid'>
             <Header>
-                <div className='logo' style={{marginTop: '16mm',}}>
+                <div className='logo' style={{marginTop: '12mm',}}>
                     <a href='http://www.google.com'>ND</a>
                 </div>
                 <Menu style={{color: 'pink', backgroundColor: 'green', fontSize: '10mm', marginTop:'6mm',}} mode='horizontal' defaultSelectedKeys={['home']}>
