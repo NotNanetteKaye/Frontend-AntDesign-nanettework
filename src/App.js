@@ -19,7 +19,7 @@ const { Header } = Layout;
 function App() {
   return (
     <Layout className='layout'>
-      <Header  style={{backgroundColor: "red"}}>
+      <Header  style={{backgroundColor: "red", height:"24mm"}}>
         <NavBar />
       </Header>
     </Layout>
