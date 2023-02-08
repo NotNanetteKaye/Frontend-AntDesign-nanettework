@@ -27,7 +27,7 @@ const NavBar = () => {
                 <div className='logo' style={{marginTop: '12mm',}}>
                     <a href='http://www.google.com'>ND</a>
                 </div>
-                <Menu style={{color: 'pink', backgroundColor: 'green', fontSize: '10mm', marginTop:'6mm',}} mode='horizontal' defaultSelectedKeys={['home']}>
+                <Menu style={{color: 'pink', backgroundColor: 'green', fontSize: '10mm', marginTop:'6mm',}} mode='horizontal'>
                     <Menu.Item key='home'>Home</Menu.Item>
                     <Menu.Item key='about'>About</Menu.Item>
                     <Menu.Item key='portfolio'>Portfolio</Menu.Item>
